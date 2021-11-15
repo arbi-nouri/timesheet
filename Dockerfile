@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8083
-ADD target/timesheet-1.0.war timesheet-1.0.war
-ENTRYPOINT ["java","-jar","/timesheet-1.0.war"]
+ADD target/timesheet-1.0.jar timesheet-1.0.jar
+ENTRYPOINT ["java","-jar","/timesheet-1.0.jar"]
